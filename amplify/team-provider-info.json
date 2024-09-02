@@ -10,11 +10,6 @@
       "StackName": "amplify-finalysis-dev-1635f",
       "StackId": "arn:aws:cloudformation:ap-southeast-2:992382796250:stack/amplify-finalysis-dev-1635f/e66a3240-690f-11ef-86bf-0622fc871bb3",
       "AmplifyAppId": "d2q17gx4qinaeb"
-    },
-    "categories": {
-      "api": {
-        "finalysis": {}
-      }
     }
   }
 }
