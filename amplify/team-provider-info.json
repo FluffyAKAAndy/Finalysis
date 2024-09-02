@@ -11,5 +11,26 @@
       "StackId": "arn:aws:cloudformation:ap-southeast-2:992382796250:stack/amplify-finalysis-dev-1635f/e66a3240-690f-11ef-86bf-0622fc871bb3",
       "AmplifyAppId": "d2q17gx4qinaeb"
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-finalysis-prod-6ced5-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992382796250:role/amplify-finalysis-prod-6ced5-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992382796250:role/amplify-finalysis-prod-6ced5-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-finalysis-prod-6ced5-deployment",
+      "UnauthRoleName": "amplify-finalysis-prod-6ced5-unauthRole",
+      "StackName": "amplify-finalysis-prod-6ced5",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:992382796250:stack/amplify-finalysis-prod-6ced5/82622ac0-6926-11ef-a1de-0271a9c0dc7b",
+      "AmplifyAppId": "dom06lyh33w42"
+    },
+    "categories": {
+      "api": {
+        "finalysis": {}
+      },
+      "auth": {
+        "finalysisb8961efb": {}
+      }
+    }
   }
 }

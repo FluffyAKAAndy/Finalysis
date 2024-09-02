@@ -14,8 +14,14 @@ export const createTodo = /* GraphQL */ `mutation CreateTodo(
 ) {
   createTodo(input: $input, condition: $condition) {
     id
-    name
-    description
+    date
+    completeAccess
+    netbank
+    goalsaver
+    investments
+    super
+    assets
+    debt
     createdAt
     updatedAt
     __typename
@@ -31,8 +37,14 @@ export const updateTodo = /* GraphQL */ `mutation UpdateTodo(
 ) {
   updateTodo(input: $input, condition: $condition) {
     id
-    name
-    description
+    date
+    completeAccess
+    netbank
+    goalsaver
+    investments
+    super
+    assets
+    debt
     createdAt
     updatedAt
     __typename
@@ -48,8 +60,14 @@ export const deleteTodo = /* GraphQL */ `mutation DeleteTodo(
 ) {
   deleteTodo(input: $input, condition: $condition) {
     id
-    name
-    description
+    date
+    completeAccess
+    netbank
+    goalsaver
+    investments
+    super
+    assets
+    debt
     createdAt
     updatedAt
     __typename

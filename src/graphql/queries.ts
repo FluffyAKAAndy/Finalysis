@@ -11,8 +11,14 @@ type GeneratedQuery<InputType, OutputType> = string & {
 export const getTodo = /* GraphQL */ `query GetTodo($id: ID!) {
   getTodo(id: $id) {
     id
-    name
-    description
+    date
+    completeAccess
+    netbank
+    goalsaver
+    investments
+    super
+    assets
+    debt
     createdAt
     updatedAt
     __typename
@@ -27,8 +33,14 @@ export const listTodos = /* GraphQL */ `query ListTodos(
   listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {
     items {
       id
-      name
-      description
+      date
+      completeAccess
+      netbank
+      goalsaver
+      investments
+      super
+      assets
+      debt
       createdAt
       updatedAt
       __typename
