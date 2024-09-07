@@ -1,12 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar";
 import { LoanComponent } from '../loananalysiscomponent/loananaylsis';
-import './App.css';
 import { AssetComponent } from "../assetscomponent/assets";
-import { Amplify } from 'aws-amplify';
-import outputs from '../amplify_outputs.json';
+import './App.css';
 
-Amplify.configure(outputs);
 function App() {
 
   return (
