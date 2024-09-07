@@ -3,6 +3,10 @@ import Navbar from "./Navbar";
 import { LoanComponent } from '../loananalysiscomponent/loananaylsis';
 import './App.css';
 import { AssetComponent } from "../assetscomponent/assets";
+import { Amplify } from 'aws-amplify';
+import outputs from '../amplify_outputs.json';
+
+Amplify.configure(outputs);
 function App() {
 
   return (
